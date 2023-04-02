@@ -11,7 +11,6 @@ namespace Fractals
 		static double y;
 		public static void DrawDragonFractal(Pixels pixels, int iterationsCount, int seed)
 		{
-
 			x = 1;
 			y = 0;
 			Random rnd = new Random(seed);
